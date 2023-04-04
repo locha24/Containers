@@ -63,7 +63,8 @@ header{
     color: #6E38F7;
     height: 28px;
     padding-left: 230px;
-    margin-top: 24px;
+    padding-top: 24px;
+    display: flex;
 }
 
 nav{
@@ -89,7 +90,8 @@ nav{
     margin-left: auto;
     gap: 20px;
     height: 20px;
-    padding-left: 813px;
+    padding-left: 455px;
+    padding-top: 24px;
 
 }
 
@@ -155,9 +157,6 @@ nav{
     font-size: 18px;
     line-height: 1.22;
 
-    /* identical to box height, or 122% */
-
-    /* Text */
     color: #363940;
 }
 
@@ -165,6 +164,8 @@ nav{
     display: flex;
     gap: 166px;
     padding-left: 230px;
+    padding-right: 230px;
+    margin-top: 60px;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -180,4 +181,41 @@ nav{
 
     /* Neutral 4 */
     color: #95A1BB;
+}
+
+.features-text{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: left;
+    width: 220px;
+    height: 66px;
+    margin-top: 15px;
+}
+
+.call-title{
+    padding-top: 180px;
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 58px;
+line-height: 1.17;
+
+/* identical to box height, or 117% */
+text-align: center;
+
+color: #363940;
+}
+
+.call-text{
+    font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.38;
+
+/* or 138% */
+text-align: center;
+
+/* Neutral 4 */
+color: #95A1BB;
 }
